@@ -1,0 +1,99 @@
+body{
+    background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F438%2F840%2Foriginal%2Ftheater-stage-background-vector.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F438840-theater-stage-background&tbnid=ISTjtccnCTQNgM&vet=12ahUKEwj80ZHOipTyAhXRA3IKHYvWDbgQMygEegUIARDLAQ..i&docid=lIz1O8gWm1Qz9M&w=4500&h=3500&q=theater%20background%20images&ved=2ahUKEwj80ZHOipTyAhXRA3IKHYvWDbgQMygEegUIARDLAQ");
+    background-size:100%;
+    font-family:sans-serif;
+    color:#444;
+    letter-spacing: 1px;
+}
+h1,h2{
+    font-weight: normal;
+}
+#wrapper
+{
+    background-color: #eee;
+    width:90%;
+    max-width:960px;
+margin:20px auto;
+border: radius 6px;
+box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
+box-sizing: border-box;
+padding: 0 0 20px;
+overflow:hidden;
+border: 1px solid lightgray;
+}
+#page-banner{
+    background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fgraphicriver.img.customer.envatousercontent.com%2Ffiles%2F102290904%2F01_background_with_red_curtain_and_wood_floor_and_screen2_t.jpg%3Fauto%3Dcompress%252Cformat%26fit%3Dcrop%26crop%3Dtop%26w%3D590%26h%3D590%26s%3Dcc15703a972033920f74da792319b6dc&imgrefurl=https%3A%2F%2Fgraphicriver.net%2Ftheater-and-background-graphics-in-vectors%2Fconceptual&tbnid=mPRVWn-mZRvWEM&vet=12ahUKEwj80ZHOipTyAhXRA3IKHYvWDbgQMygJegUIARDXAQ..i&docid=9fWkT15dTqhATM&w=590&h=590&q=theater%20background%20images&ved=2ahUKEwj80ZHOipTyAhXRA3IKHYvWDbgQMygJegUIARDXAQ");
+    background-size:100px;
+    align-items: center;
+    padding:10px 0;
+}
+#page-banner h1,
+#page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+#movie-list ul{
+    list-style-type:none;
+    padding:0;
+}
+#movie-list li {
+    padding:20px;
+    border-left:5px solid #ddd;
+    margin: 20px 10px;
+}
+#movie-list li:hover{
+    border-color: #9361bf;
+}
+.delete{
+    float:right;
+    background:red;
+    padding:6px;
+    cursor:pointer;
+    color:white;
+}
+.delete:hover{
+    background: maroon;
+
+}
+#add-movie{
+    width:400px;
+    margin:0 auto;
+}
+#add-movie input{
+    display:block;
+    margin:20px 0;
+    padding: 10px;
+    border: 1pxsolid #ccc;
+    font-size:16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+
+}
+#add-movie button{
+    border:1px solid green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    display:inline-block;
+    margin:0;
+    border-radius:0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float:left;
+    margin:20px 0;
+border-left:0;
+color:white;
+}
+#add-movie:after{
+    content:"";
+    display:block;
+    clear:both;
+
+}
+#add-movie label{
+    line-height:52px;
+}
